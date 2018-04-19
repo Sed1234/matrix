@@ -13,9 +13,9 @@ int main() {
 	myList.addStudent(6, "Pop");
 	myList.showStudents();
 	std::vector<Student> result = myList.serchStudentsByName("Pop");
-	for (int i = 0; i < result.size; i++) {
+	for (int i = 0; i < result.size(); i++) {
 		
-		cout << result[i] << endl;
+		cout << result[i].grade << endl;
 		
 	}
 	system("pause");
