@@ -1,28 +1,15 @@
 #include <iostream>
 #include "Matrix.h"
 #include <string>
+#include "Student.h"
+#include "ListOfStudetns.h"
 
 using namespace std;
 
 int main() {
-	string s;
-	Matrix first(3);
-	for (int i = 0; i < 3; i++)
-	{
-
-		first.a[i] = '0';
-		cout << first.a[i] << ' ';
-		cout << endl;
-	}
-	Matrix second(first);
-
-	for (int i = 0; i < 3; i++)
-	{
-
-		cout << second.a[i] << ' ';
-		cout << endl;
-	}
-
+	ListOfStudetns myList;
+	myList.addStudent(5, "Sed");
+	myList.showStudents();
 	system("pause");
 	return 0;
 }
