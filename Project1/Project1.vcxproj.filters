@@ -24,6 +24,9 @@
     <ClInclude Include="ListOfStudetns.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Stirng.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Matrix.cpp">
@@ -36,6 +39,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ListOfStudetns.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stirng.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
